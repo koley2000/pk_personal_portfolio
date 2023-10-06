@@ -29,7 +29,8 @@
                 <p>
                     A computer science student passionate about programming.
                 </p>
-                <div><a href="https://links.pravatkoley.me/resume" target="_blank"><button class="btn btn-secondary">DOWNLOAD CV </button></a></div>
+                <div><a href="https://links.pravatkoley.me/resume" target="_blank"><button
+                            class="btn btn-secondary">DOWNLOAD CV </button></a></div>
             </div>
         </div>
     </header>
@@ -43,17 +44,17 @@
                 <h1>About <span>Me</span></h1>
                 <h3>Hello! I'm Pravat Koley</h3>
                 <p>
-                    I'm a final year computer science engineering  student at NSHM Knowladge Campus, Durgapur.
-                    Primarily interested in Java and Web Development. 
+                    I'm a final year computer science engineering student at NSHM Knowladge Campus, Durgapur.
+                    Primarily interested in Java and Web Development.
                     <br>Here is a list of the programing languages that I'm familiar with! </br>
-                    <ol class="skill_list">
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>C++</li>
-                        <li>JavaScrpit</li>
-                        <li>SQL</li>
-                        <li>HTML/CSS</li>
-                    </ol>
+                <ol class="skill_list">
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>JavaScrpit</li>
+                    <li>SQL</li>
+                    <li>HTML/CSS</li>
+                </ol>
                 </p>
             </div>
         </div>
@@ -64,20 +65,37 @@
             <p>Some Stuffs That I've built</p>
             <div class="card-grid">
                 <div class="card">
+                    <img src="public/img/MovieFlix.png" />
+                    <h2>MovieFlix</h2>
+                    <p>
+                        A web application that allows users to search and view information about movies. It also
+                        shows upcoming and popular movies.
+                    </p>
+                    <div class="proj_button_div">
+                        <a href="https://github.com/koley2000/movieflixt" target="_blank">
+                            <button class="btn btn-secondary" id="proj_button">GITHUB</button>
+                        </a>
+
+                        <a href="https://movieflix-pravat.vercel.app/" target="_blank">
+                            <button class="btn btn-secondary" id="proj_button">WEB</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
                     <img src="public/img/WEATHER-APP.webp" />
                     <h2>Weather Forecasting Website</h2>
                     <p>
                         It is built using HTML, CSS, JS and OpenWeather API.
                         It can also show weather upto next four days.
                     </p>
-                    <div class="proj_button_div"> 
-                    <a href="https://github.com/koley2000/weather24.io.git" target="_blank">
-                        <button class="btn btn-secondary" id="proj_button">GITHUB</button>
-                    </a>
+                    <div class="proj_button_div">
+                        <a href="https://github.com/koley2000/weather24.io.git" target="_blank">
+                            <button class="btn btn-secondary" id="proj_button">GITHUB</button>
+                        </a>
 
-                    <a href="https://koley2000.github.io/weather24.io/" target="_blank">
-                        <button class="btn btn-secondary" id="proj_button">WEB</button>
-                    </a>
+                        <a href="https://koley2000.github.io/weather24.io/" target="_blank">
+                            <button class="btn btn-secondary" id="proj_button">WEB</button>
+                        </a>
                     </div>
                 </div>
                 <div class="card">
@@ -86,21 +104,13 @@
                     <p>
                         Scientific Calculator built using Java swing on Eclipse IDE.
                     </p>
-                    <div class="proj_button_div"> 
+                    <div class="proj_button_div">
                         <a href="https://github.com/koley2000/scientific_calculator.git" target="_blank">
                             <button class="btn btn-secondary" id="proj_button">GITHUB</button>
-                    </a>
+                        </a>
                     </div>
                 </div>
                 <!-- <div class="card">
-                    <img src="https://source.unsplash.com/1600x900/?car,bike" />
-                    <h2>Content Writing</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Nulla, debitis?
-                    </p>
-                </div>
-                <div class="card">
                     <img src="https://source.unsplash.com/1600x900/?car,bike" />
                     <h2>Content Writing</h2>
                     <p>
@@ -121,17 +131,20 @@
             </div>
             <div class="label-div">
                 <label for="email" id="email-label" class="label-input">Your Email Id</label>
-                <input type="email" name="email" id="email" class="form-input" placeholder="Enter your Email id" required>
+                <input type="email" name="email" id="email" class="form-input" placeholder="Enter your Email id"
+                    required>
             </div>
             <div class="label-div">
                 <label for="message" id="message-label" class="label-input">Your Message</label>
-                <textarea name="message" id="message" class="form-input" cols="40" rows="10" placeholder="Message" required></textarea>
+                <textarea name="message" id="message" class="form-input" cols="40" rows="10" placeholder="Message"
+                    required></textarea>
             </div>
-            <div class="label-div"><button class="btn btn-secondary" id="submit" onclick="sendemail(); reset(); return false">SEND</button></div>
+            <div class="label-div"><button class="btn btn-secondary" id="submit"
+                    onclick="sendemail(); reset(); return false">SEND</button></div>
         </form>
     </section>
 
-    
+
     <footer>
         <div class="contact-links">
             <a href="https://www.facebook.com/pravatkolay/" target="_blank" id="profile-link">
@@ -143,8 +156,8 @@
             <a href="https://github.com/koley2000" target="_blank" id="profile-link">
                 <i class="fa-brands fa-github fa-4x" id="icon"></i>
             </a>
-            <a href="https://www.instagram.com/pravat9871/?hl=en" target="_blank" id="profile-link">
-                <i class="fa-brands fa-instagram fa-4x" id="icon"></i>
+            <a href="https://twitter.com/pravat_koley" target="_blank" id="profile-link">
+                <i class="fa-brands fa-x-twitter fa-4x" id="icon"></i>
             </a>
         </div>
     </footer>
