@@ -121,6 +121,13 @@
   }
 
 
+/* Hide scrollbar for IE, Edge and Firefox */
+  section.projects .card-grid {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  } 
+
+
   section.projects .card-grid .card {
     background: var(--white);
     /*padding: 3rem 2rem; */
