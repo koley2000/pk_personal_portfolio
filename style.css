@@ -86,10 +86,10 @@
     margin: 0.5em;
   }
 
-  section.services {
+  section.projects {
     background: rgb(17, 17, 17);
   }
-  .services-head {
+  .projects-head {
     color: rgb(10, 9, 9);
     text-align: center;
     margin-bottom: 2rem;
@@ -97,7 +97,7 @@
     color: var(--primary);
     font-size: 3rem;
   }
-  .services-head + p {
+  .projects-head + p {
     color: var(--white);
     font-family: "Lato", sans-serif;
     margin-bottom: 1rem;
@@ -112,14 +112,23 @@
     width: 100%;
     max-height: 225px;
     height: 100%;
-}
-  section.services .card-grid {
+  }
+  section.projects .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
     row-gap: 2em;
   }
-  section.services .card-grid .card {
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+  section.projects .card-grid {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  } 
+
+
+  section.projects .card-grid .card {
     background: var(--white);
     /*padding: 3rem 2rem; */
     position: relative;
@@ -130,12 +139,12 @@
     flex-direction: column;
   }
   
-  section.services .card-grid .card h2 {
+  section.projects .card-grid .card h2 {
     font-weight: 600;
     font-size: 1.2rem;
     margin: 1rem 0;
   }
-  section.services .card-grid .card p {
+  section.projects .card-grid .card p {
     font-family: "Lato", sans-serif;
     color: var(--seconday);
     line-height: 1.6;
@@ -149,15 +158,6 @@
     justify-content: space-between;
 }
 
-  /* section.services .card-grid .card:hover {
-    background: var(--primary);
-  }
-  section.services .card-grid .card:hover h2 {
-    color: var(--white);
-  }
-  section.services .card-grid .card:hover p {
-    color: var(--white);
-  } */
   
   .flex {
     display: flex;
@@ -287,13 +287,13 @@
     padding: 3rem 3rem 4rem 3rem;
   }
 
-  .services {
+  .projects {
     padding: 6rem 1rem;
   }
 
-  section.services .card-grid {
-    /* display: flex;
-    flex-direction: row; */
+  section.projects .card-grid {
+    display: flex;
+    flex-direction: row;
     column-gap: 2rem;
     overflow: auto;
   }
